@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YappingProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="homedata">
+        <item> This best data data have i is like seen the</item>
+        <item> This best data data have i is like seen the</item>
+        <item> This best data data have i is like seen the</item>
+        <item> This best data data have i is like seen the</item>
+        <item> This best data data have i is like seen the</item>
+        <item> This best data data have i is like seen the</item>
+    </string-array>
+    <string-array name="nd">
+        <item> Must Know</item>
+        <item> See All questions</item>
+        <item> My Qustions</item>
+        <item> FAQs</item>
+    </string-array>
+
+</resources>

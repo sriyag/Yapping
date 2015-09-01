@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="com.example.yapping.MainActivity" >
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="128dp"
+        android:hint="Enter username"
+        android:inputType="textEmailAddress"
+        android:typeface="serif" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/yapping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="yapping"
+        android:textColor="@color/BlueEyes"
+        android:textSize="55dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etUsername"
+        android:layout_marginTop="19dp"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:typeface="serif" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/border1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etUsername"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/Black"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/border2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/Black"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/createanaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/createaccount"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="28dp"
+        android:text="Create an account"
+        android:textColor="@color/BlueDress"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/forgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/createanaccount"
+        android:layout_alignBottom="@+id/createanaccount"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:text="Forgot Password"
+        android:textColor="@color/BlueDress"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/createaccount"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:background="@color/BlueDress"
+        android:text="Create Account"
+        android:textColor="@color/White"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bSignIn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/createanaccount"
+        android:layout_alignLeft="@+id/createaccount"
+        android:layout_alignRight="@+id/createaccount"
+        android:layout_marginBottom="46dp"
+        android:background="@color/BlueDress"
+        android:gravity="center"
+        android:text="Sign in"
+        android:textColor="@color/White"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
